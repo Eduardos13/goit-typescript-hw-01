@@ -9,3 +9,10 @@ interface User {
   email: string;
   address?: Address;
 }
+
+let user1: User = {
+  name: 'string',
+  age: 10,
+  email: 'string',
+};
+console.log(user1);

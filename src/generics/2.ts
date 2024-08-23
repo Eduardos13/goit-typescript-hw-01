@@ -16,3 +16,4 @@ function compare<T extends Pick<AllType, keyof AllType>>(
     weight: bottom.weight,
   };
 }
+compare;

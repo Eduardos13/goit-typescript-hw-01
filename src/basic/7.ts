@@ -8,5 +8,13 @@ type page = {
   likes: number;
   accounts: string[];
   status: 'open' | 'close';
-  details: Details;
+  details?: Details;
 };
+
+const page2: page = {
+  title: 'Python or Js',
+  likes: 5,
+  accounts: ['Alex'],
+  status: 'close',
+};
+console.log(page2);
