@@ -9,4 +9,3 @@ const RoleDescription: Record<UserRole, string> = {
   [UserRole.editor]: 'Editor User',
   [UserRole.guest]: 'Guest User',
 };
-RoleDescription;

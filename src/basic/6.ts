@@ -15,4 +15,3 @@ let user1: User = {
   age: 10,
   email: 'string',
 };
-console.log(user1);
