@@ -4,7 +4,6 @@ type Errors = {
   lastName?: string[];
   phone?: string[];
 };
-
 type Form = {
   email: string | null;
   firstName: string | null;
@@ -12,5 +11,4 @@ type Form = {
   phone: string | null;
   errors: Errors;
 };
-
 type Params = Omit<Form, 'errors'>;
